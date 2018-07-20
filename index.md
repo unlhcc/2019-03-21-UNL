@@ -90,26 +90,29 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p id="where">
   <strong>Where:</strong><br>
 
-<table style="width: 75%, ">
+<table style="width: 50%">
 	<tr>
 		<th><center><strong>Lincoln</strong></center></th>
 		<th><center><strong>Omaha</strong></center></th>
 	</tr>
 	<tr>
-		<td>University of Nebraksa-Lincoln<br>
+		<td style="padding: 5px 20px 5px 20px;">University of Nebraksa-Lincoln<br>
 			Scott Engineering Center - Room 111<br>
 			844 N 16th St<br>
-			Lincoln, NE 68508</td>
-		<td>University of Nebraska at Omaha<br>
+			Lincoln, NE 68508<br>
+			Get directions with
+  <a href="//www.openstreetmap.org/?mlat={{page.latlng1 | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a> or <a href="//maps.google.com/maps?q={{page.latlng1}}">Google Maps</a>.</tr>
+	</td>
+		<td style="padding: 5px 20px 5px 20px;">University of Nebraska at Omaha<br>
 			Peter Kiewit Institute - Room 164<br>
 			1110 S 67th St<br>
-			Omaha, NE 68182</td>
+			Omaha, NE 68182<br>
+			Get directions with
+  <a href="//www.openstreetmap.org/?mlat={{page.latlng2 | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a> or <a href="//maps.google.com/maps?q={{page.latlng2}}">Google Maps</a>.</td>
 	</tr>
 	<tr>
-		<td>Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng1 | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a> or <a href="//maps.google.com/maps?q={{page.latlng1}}">Google Maps</a>.</td>
-		<td>Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng2 | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a> or <a href="//maps.google.com/maps?q={{page.latlng2}}">Google Maps</a>.</td>
+		<td><button name="button" onclick="https://marketplace.unl.edu/default/hcc-software-carpentry-workshop-august-unl-2018.html">Register to Attend in Lincoln</button></td>
+		<td><button name="button" onclick="https://marketplace.unl.edu/default/hcc-software-carpentry-workshop-august-uno-2018.html">Register to Attend in Lincoln</button></td>
 	</tr>
 </table>
 	
