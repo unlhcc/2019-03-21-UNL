@@ -89,17 +89,30 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% if page.latlng %}
 <p id="where">
   <strong>Where:</strong><br>
-	Lincoln:
-  {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a><br>
-	Omaha:
-  {{page.address2}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng2 | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a><br>
-  <a href="//maps.google.com/maps?q={{page.latlng2}}">Google Maps</a>.
-</p>
 
+<table>
+	<tr>
+		<th><center><strong>Lincoln</strong></center></th>
+		<th><center><strong>Omaha</strong></center></th>
+	</tr>
+	<tr>
+		<td>University of Nebraksa-Lincoln<br>
+			Scott Engineering Center - Room 111<br>
+			844 N 16th St<br>
+			Lincoln, NE 68508</td>
+		<td>University of Nebraska at Omaha<br>
+			Peter Kiewit Institute - Room 164<br>
+			1110 S 67th St<br>
+			Omaha, NE 68182
+	</tr>
+	<tr>
+		<td>Get directions with
+  <a href="//www.openstreetmap.org/?mlat={{page.latlng1 | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a> or <a href="//maps.google.com/maps?q={{page.latlng1}}">Google Maps</a>.</td>
+		<td>Get directions with
+  <a href="//www.openstreetmap.org/?mlat={{page.latlng2 | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a> or <a href="//maps.google.com/maps?q={{page.latlng2}}">Google Maps</a>.</td>
+	</tr>
+</table>
+	
 {% endif %}
 
 {% comment %}
@@ -535,14 +548,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <a href="https://www.anaconda.com/distribution/">Anaconda</a>,
     an all-in-one installer.
   </p>
-
-    <p>
-      Regardless of how you choose to install it,
-      <strong>please make sure you install Python version 3.x</strong>
-      (e.g., 3.6 is fine).
-    </p>
-
-    <p>
+      <p>
       We will teach Python using the <a href="https://jupyter.org/">Jupyter notebook</a>,
       a programming environment that runs in a web browser. For this to work you will need a reasonably
       up-to-date browser. The current versions of the Chrome, Safari and
@@ -550,6 +556,17 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <a href="https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility">supported</a>
       (some older browsers, including Internet Explorer version 9
       and below, are not).
+    </p>
+  <p>Attendees have two options for this workshop:</p>
+<p><b>1. Use the Holland Computing Center's JupyterHub (Preferred Method):</b><br>
+	Attendees with HCC accounts can access JupyterHub by visiting <a>http://crane.unl.edu</a>. NU affiliates who do not currently have an HCC account may apply for free by completing a <a href="https://hcc.unl.edu/new-user-request">New User Request</a></p>
+<p><b>2. Install Python and Jupyter Notebook on your Personal Machine:</b><br>
+	Follow the directions below to install the software on your personal machine</p>
+
+    <p>
+      Regardless of how you choose to install it,
+      <strong>please make sure you install Python version 3.x</strong>
+      (e.g., 3.6 is fine).
     </p>
 
   <div class="row">
