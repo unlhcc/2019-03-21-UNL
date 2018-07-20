@@ -92,7 +92,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <table style="width: 80%; margin-left:10%; margin-right:10%">
 	<tr>
-		<th><center><strong>Lincoln</strong></center></th>
+		<th style="text-align:center"><strong>Lincoln</strong></th>
 		<th><center><strong>Omaha</strong></center></th>
 	</tr>
 	<tr>
@@ -110,8 +110,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <a href="//www.openstreetmap.org/?mlat={{page.latlng2 | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a> or <a href="//maps.google.com/maps?q={{page.latlng2}}">Google Maps</a>.</td>
 	</tr>
 	<tr>
-		<td><button name="button" onclick="https://marketplace.unl.edu/default/hcc-software-carpentry-workshop-august-unl-2018.html">Register to Attend in Lincoln</button></td>
-		<td><button name="button" onclick="https://marketplace.unl.edu/default/hcc-software-carpentry-workshop-august-uno-2018.html">Register to Attend in Lincoln</button></td>
+		<td style="text-align:center"><button name="button" onclick="https://marketplace.unl.edu/default/hcc-software-carpentry-workshop-august-unl-2018.html">Register to Attend in Lincoln</button></td>
+		<td style="text-align:center"><button name="button" onclick="https://marketplace.unl.edu/default/hcc-software-carpentry-workshop-august-uno-2018.html">Register to Attend in Lincoln</button></td>
 	</tr>
 </table>
 	
@@ -559,7 +559,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       (some older browsers, including Internet Explorer version 9
       and below, are not).
     </p>
-  <h5>Attendees have two options for this workshop:</h5>
+  <h4>Attendees have two options for this workshop:</h4>
 <p><b>1. Use the Holland Computing Center's JupyterHub (Preferred Method):</b><br>
 	Attendees with HCC accounts can access JupyterHub by visiting <a>http://crane.unl.edu</a>. NU affiliates who do not currently have an HCC account may apply for free by completing a <a href="https://hcc.unl.edu/new-user-request">New User Request</a></p>
 <p><b>2. Install Python and Jupyter Notebook on your Personal Machine:</b><br>
