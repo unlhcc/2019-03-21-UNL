@@ -101,8 +101,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 			844 N 16th St<br>
 			Lincoln, NE 68508<br>
 			Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng1 | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a> or <a href="//maps.google.com/maps?q={{page.latlng1}}">Google Maps</a>.</tr>
-	</td>
+  <a href="//www.openstreetmap.org/?mlat={{page.latlng1 | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a> or <a href="//maps.google.com/maps?q={{page.latlng1}}">Google Maps</a>.</td>
 		<td style="padding: 5px 20px 5px 20px;">University of Nebraska at Omaha<br>
 			Peter Kiewit Institute - Room 164<br>
 			1110 S 67th St<br>
