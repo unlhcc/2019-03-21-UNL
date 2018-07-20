@@ -92,18 +92,16 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <table style="width: 80%; margin-left:10%; margin-right:10%">
 	<tr>
-		<th style="text-align:center"><strong>Lincoln</strong></th>
-		<th><center><strong>Omaha</strong></center></th>
+		<th style="text-align:center"><strong>University of Nebraksa-Lincoln</strong></th>
+		<th style="text-align:center"><strong>University of Nebraska at Omaha</strong></th>
 	</tr>
 	<tr>
-		<td style="padding: 5px 20px 5px 20px;">University of Nebraksa-Lincoln<br>
-			Scott Engineering Center - Room 111<br>
+		<td style="padding: 5px 20px 5px 20px;">Scott Engineering Center - Room 111<br>
 			844 N 16th St<br>
 			Lincoln, NE 68508<br>
 			Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng1 | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a> or <a href="//maps.google.com/maps?q={{page.latlng1}}">Google Maps</a>.</td>
-		<td style="padding: 5px 20px 5px 20px;">University of Nebraska at Omaha<br>
-			Peter Kiewit Institute - Room 164<br>
+		<td style="padding: 5px 20px 5px 20px;">Peter Kiewit Institute - Room 164<br>
 			1110 S 67th St<br>
 			Omaha, NE 68182<br>
 			Get directions with
@@ -560,16 +558,18 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       and below, are not).
     </p>
   <h4>Attendees have two options for this workshop:</h4>
-<p><b>1. Use the Holland Computing Center's JupyterHub (Preferred Method):</b><br>
-	Attendees with HCC accounts can access JupyterHub by visiting <a>http://crane.unl.edu</a>. NU affiliates who do not currently have an HCC account may apply for free by completing a <a href="https://hcc.unl.edu/new-user-request">New User Request</a></p>
-<p><b>2. Install Python and Jupyter Notebook on your Personal Machine:</b><br>
-	Follow the directions below to install the software on your personal machine</p>
-
-    <p>
-      Regardless of how you choose to install it,
-      <strong>please make sure you install Python version 3.x</strong>
-      (e.g., 3.6 is fine).
-    </p>
+<ol>
+	<li><b>1. Use the Holland Computing Center's JupyterHub:</b><li>
+	<ul>
+		<li>Attendees with HCC accounts can access JupyterHub by visiting <a>http://crane.unl.edu</a>.</li>
+		<li>NU affiliates who do not currently have an HCC account may apply for free by completing a <a href="https://hcc.unl.edu/new-user-request">New User Request</a>.</li>
+	</ul>
+	<li><b>2. Install Python and Jupyter Notebook on your Personal Machine:</b><li>
+	<ul>
+		<li>Follow the directions below to install the software on your personal machine.</li>
+		<li>Make sure you install Python version 3.x (e.g., 3.6 is fine).</li>
+	</ul>
+</ol>
 
   <div class="row">
     <div class="col-md-4">
