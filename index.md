@@ -90,7 +90,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p id="where">
   <strong>Where:</strong><br>
 
-<table>
+<table style="width: 75%, ">
 	<tr>
 		<th><center><strong>Lincoln</strong></center></th>
 		<th><center><strong>Omaha</strong></center></th>
@@ -103,7 +103,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 		<td>University of Nebraska at Omaha<br>
 			Peter Kiewit Institute - Room 164<br>
 			1110 S 67th St<br>
-			Omaha, NE 68182
+			Omaha, NE 68182</td>
 	</tr>
 	<tr>
 		<td>Get directions with
