@@ -92,7 +92,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <table style="width: 80%; margin-left:10%; margin-right:10%">
 	<tr>
-		<th style="text-align:center"><strong>University of Nebraksa-Lincoln</strong></th>
+		<th style="text-align:center"><strong>University of Nebraska-Lincoln</strong></th>
 		<th style="text-align:center"><strong>University of Nebraska at Omaha</strong></th>
 	</tr>
 	<tr>
@@ -559,16 +559,18 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </p>
   <h4>Attendees have two options for this workshop:</h4>
 <ol>
-	<li><b>1. Use the Holland Computing Center's JupyterHub:</b><li>
-	<ul>
-		<li>Attendees with HCC accounts can access JupyterHub by visiting <a>http://crane.unl.edu</a>.</li>
-		<li>NU affiliates who do not currently have an HCC account may apply for free by completing a <a href="https://hcc.unl.edu/new-user-request">New User Request</a>.</li>
-	</ul>
-	<li><b>2. Install Python and Jupyter Notebook on your Personal Machine:</b><li>
-	<ul>
-		<li>Follow the directions below to install the software on your personal machine.</li>
-		<li>Make sure you install Python version 3.x (e.g., 3.6 is fine).</li>
-	</ul>
+	<li><b>Use the Holland Computing Center's JupyterHub:</b>
+		<ul>
+			<li>Attendees with HCC accounts can access JupyterHub by visiting <a>http://crane.unl.edu</a>.</li>
+			<li>NU affiliates who do not currently have an HCC account may apply for free by completing a <a href="https://hcc.unl.edu/new-user-request">New User Request</a>.</li>
+		</ul>
+	</li>
+	<li><b>Install Python and Jupyter Notebook on your Personal Machine:</b>
+		<ul>
+			<li>Follow the directions below to install the software on your personal machine.</li>
+			<li>Make sure you install Python version 3.x (e.g., 3.6 is fine).</li>
+		</ul>
+	</li>
 </ol>
 
   <div class="row">
