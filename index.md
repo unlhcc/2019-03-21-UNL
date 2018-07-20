@@ -88,11 +88,16 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 {% if page.latlng %}
 <p id="where">
-  <strong>Where:</strong>
+  <strong>Where:</strong><br>
+	Lincoln:
   {{page.address}}.
   Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a><br>
+	Omaha:
+  {{page.address2}}.
+  Get directions with
+  <a href="//www.openstreetmap.org/?mlat={{page.latlng2 | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a><br>
+  <a href="//maps.google.com/maps?q={{page.latlng2}}">Google Maps</a>.
 </p>
 
 {% endif %}
