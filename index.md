@@ -90,7 +90,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p id="where">
   <strong>Where:</strong><br>
 
-<table style="width: 50%">
+<table style="width: 80%; margin-left:10%; margin-right:10%">
 	<tr>
 		<th><center><strong>Lincoln</strong></center></th>
 		<th><center><strong>Omaha</strong></center></th>
@@ -560,7 +560,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       (some older browsers, including Internet Explorer version 9
       and below, are not).
     </p>
-  <p>Attendees have two options for this workshop:</p>
+  <h5>Attendees have two options for this workshop:</h5>
 <p><b>1. Use the Holland Computing Center's JupyterHub (Preferred Method):</b><br>
 	Attendees with HCC accounts can access JupyterHub by visiting <a>http://crane.unl.edu</a>. NU affiliates who do not currently have an HCC account may apply for free by completing a <a href="https://hcc.unl.edu/new-user-request">New User Request</a></p>
 <p><b>2. Install Python and Jupyter Notebook on your Personal Machine:</b><br>
