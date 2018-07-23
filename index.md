@@ -128,6 +128,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 {% endif %}
 
+<p id="cost">
+  <strong>Cost:</strong>
+  $25 for NU affiliates / $50 for non-NU affiliates
+</p>
+
 {% comment %}
   SPECIAL REQUIREMENTS
 
