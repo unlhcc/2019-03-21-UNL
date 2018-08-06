@@ -154,6 +154,36 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 
 {% comment %}
+  PARKING
+  
+{% endcomment %}
+
+<p id="parking">
+	<strong>Parking:</strong><br>
+	
+	<table style="width: 80%; margin-left:10%; margin-right:10%">
+	<tr>
+		<th style="text-align:center"><strong>University of Nebraska-Lincoln</strong></th>
+		<th style="text-align:center"><strong>University of Nebraska at Omaha</strong></th>
+	</tr>
+	<tr>
+		<td style="padding: 5px 20px 5px 20px;">
+			Parking is available in the lot across the street from the Scott Engineering Center at the corner of 16th and W. Attendees from other NU campuses can park in this lot using the pass from their home institution. Student passes are eligible to park in the spots designated as "C" areas and Staff/Faculty passes can be used in the "A" areas. Metered parking is also available. Additional information on the parking policy can be found on the <a href="http://parking.unl.edu/">Parking and Transit Services website</a>.
+		</td>
+		<td style="padding: 5px 20px 5px 20px;">
+			Parking is available in the lots adjacent to the Peter Kiewit Insitute. Attendees with UNMC passes can park either in the student lot to the northwest of the building or in the Pacific Street garage located across 67th street once they register their passes with UNO Parking Services. Please contact <a href="mailto:unoparking@unomaha.edu">Parking Services</a> to register your pass prior to attending.<br>
+			Daily visitor passes are also available to purchase at the kiosk in the Pacific Street garage. Additional information on the parking policy can be found on the <a href="https://www.unomaha.edu/business-and-finance/support-services/parking-services/permits.php#w"UNO Parking Services website</a>
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align:center"><form><button name="button" formaction="https://marketplace.unl.edu/default/hcc-software-carpentry-workshop-august-unl-2018.html">Register to Attend in Lincoln</button></form></td>
+		<td style="text-align:center"><form><button name="button" formaction="https://marketplace.unl.edu/default/hcc-software-carpentry-workshop-august-uno-2018.html">Register to Attend in Omaha</button></form></td>
+	</tr>
+</table>
+
+	
+	
+{% comment %}
   ACCESSIBILITY
 
   Modify the block below if there are any barriers to accessibility or
