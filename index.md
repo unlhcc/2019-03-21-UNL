@@ -172,7 +172,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 		</td>
 		<td style="padding: 5px 20px 5px 20px;">
 			Parking is available in the lots adjacent to the Peter Kiewit Insitute. Attendees with UNMC passes can park either in the student lot to the northwest of the building or in the Pacific Street garage located across 67th street once they register their passes with UNO Parking Services. Please contact <a href="mailto:unoparking@unomaha.edu">Parking Services</a> to register your pass prior to attending.<br>
-			Daily visitor passes are also available to purchase at the kiosk in the Pacific Street garage. Additional information on the parking policy can be found on the <a href="https://www.unomaha.edu/business-and-finance/support-services/parking-services/permits.php#w"UNO Parking Services website</a>
+			Daily visitor passes are also available to purchase at the kiosk in the Pacific Street garage. Additional information on the parking policy can be found on the <a href="https://www.unomaha.edu/business-and-finance/support-services/parking-services/permits.php#w">UNO Parking Services website</a>
 		</td>
 	</tr>
 	<tr>
