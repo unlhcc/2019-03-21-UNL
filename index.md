@@ -175,10 +175,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 			Daily visitor passes are also available to purchase at the kiosk in the Pacific Street garage. Additional information on the parking policy can be found on the <a href="https://www.unomaha.edu/business-and-finance/support-services/parking-services/permits.php#w">UNO Parking Services website</a>
 		</td>
 	</tr>
-	<tr>
-		<td style="text-align:center"><form><button name="button" formaction="https://marketplace.unl.edu/default/hcc-software-carpentry-workshop-august-unl-2018.html">Register to Attend in Lincoln</button></form></td>
-		<td style="text-align:center"><form><button name="button" formaction="https://marketplace.unl.edu/default/hcc-software-carpentry-workshop-august-uno-2018.html">Register to Attend in Omaha</button></form></td>
-	</tr>
 </table>
 
 	
