@@ -108,7 +108,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <a href="//www.openstreetmap.org/?mlat={{page.latlng2 | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a> or <a href="//maps.google.com/maps?q={{page.latlng2}}">Google Maps</a>.</td>
 	</tr>
 	<tr>
-	<td style="text-align:center"><p style="color:red">Workshop full</p></td>
+	<td style="text-align:center"><p style="color:red">No seats left at this location</p></td>
 		<td style="text-align:center"><form><button name="button" formaction="https://marketplace.unl.edu/default/hcc-software-carpentry-workshop-august-uno-2018.html">Register to Attend in Omaha</button></form></td>
 	</tr>
 </table>
