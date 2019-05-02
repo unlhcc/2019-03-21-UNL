@@ -99,7 +99,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 			1400 R St<br>
 			Lincoln, NE 68588<br>
 			Get directions with
-  <a href="https://www.openstreetmap.org/search?query=nebraska%20east%20union#map=19/40.83014/-96.66749">OpenStreetMap</a> or <a href="https://www.google.com/maps/place/Nebraska+East+Union/@40.8301925,-96.6695924,17z/data=!3m1!4b1!4m5!3m4!1s0x8796bea113b038ed:0xc5267ffd804e8c50!8m2!3d40.8301885!4d-96.6674037">Google Maps</a>.</td>
+  <a href="https://www.openstreetmap.org/search?query=nebraska%20union#map=19/40.81760/-96.70048">OpenStreetMap</a> or <a href="https://www.google.com/maps/place/Nebraska+Union/@40.8175098,-96.7026801,17z/data=!3m1!4b1!4m5!3m4!1s0x8796bee48ac330a5:0xabc00c0f3a23fe49!8m2!3d40.8175058!4d-96.7004914">Google Maps</a>.</td>
 
 	</tr>
 	<tr>
