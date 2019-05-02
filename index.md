@@ -8,11 +8,11 @@ language: "en"     # lowercase two-letter ISO language code such as "fr" (see ht
 latlng: "41.247140,-96.016767"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
 latlng2: "41.247140,-96.016767"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
 latlng1: "40.822061,-96.697562"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "March 21-22, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "May 20-21, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2019-03-21      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2019-03-22        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["TBD"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+startdate: 2019-05-20      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2019-03-21        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Carrie Brown, Adam Caprez, Jingchao Zhang"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["hcc-support@unl.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
@@ -95,15 +95,15 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 		<th style="text-align:center"><strong>University of Nebraska-Lincoln</strong></th>
 	</tr>
 	<tr>
-		<td style="text-align:center;padding: 5px 20px 5px 20px;">Nebraska East Union - Room ???<br>
-			1705 Arbor Dr<br>
-			Lincoln, NE 68508<br>
+		<td style="text-align:center;padding: 5px 20px 5px 20px;">Nebraska Union - Regency Suite<br>
+			1400 R St<br>
+			Lincoln, NE 68588<br>
 			Get directions with
   <a href="https://www.openstreetmap.org/search?query=nebraska%20east%20union#map=19/40.83014/-96.66749">OpenStreetMap</a> or <a href="https://www.google.com/maps/place/Nebraska+East+Union/@40.8301925,-96.6695924,17z/data=!3m1!4b1!4m5!3m4!1s0x8796bea113b038ed:0xc5267ffd804e8c50!8m2!3d40.8301885!4d-96.6674037">Google Maps</a>.</td>
 
 	</tr>
 	<tr>
-		<td style="text-align:center"><form><button name="button" formaction="https://marketplace.unl.edu/default/hcc-software-carpentry-workshop-august-uno-2018.html">Register to Attend in Lincoln</button></form></td>
+		<td style="text-align:center"><form><button name="button" formaction="https://marketplace.unl.edu/default/hcc-software-carpentry-workshop-may-2019.html">Register to Attend in Lincoln</button></form></td>
 	</tr>
 </table>
 	
@@ -124,7 +124,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <p id="cost">
   <strong>Cost:</strong>
-  $25 for NU affiliates / $50 for non-NU affiliates
+  $40 for NU affiliates / $80 for non-NU affiliates
 </p>
 
 {% comment %}
@@ -221,21 +221,20 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <hr/>
 
 {% comment %} 
- SURVEYS - DO NOT EDIT SURVEY LINKS 
-{% endcomment %}
-<h2 id="surveys">Surveys</h2>
-
-{% if page.carpentry == "swc" %} 
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id=2018-08-13-NU">Pre-workshop Survey</a></p>
-<p><a href="https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id=2018-08-13-NU">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "dc" %}
-  <p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "lc" %}
-<p>Ask your instructor about pre- and post-workshop Survey details.</p>
-{% endif %}
+SURVEYS - DO NOT EDIT SURVEY LINKS
+ {% endcomment %}
+ <h2 id="surveys">Surveys</h2>
+ <p>Please be sure to complete these surveys before and after the workshop.</p>
+ {% if site.carpentry == "swc" %}
+ <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+ <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+ {% elsif site.carpentry == "dc" %}
+ <p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+ <p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+ {% elsif site.carpentry == "lc" %}
+ <p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+ <p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+ {% endif %}
 
 <hr/>
 
