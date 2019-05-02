@@ -9,7 +9,7 @@ latlng: "41.247140,-96.016767"       # decimal latitude and longitude of worksho
 latlng2: "41.247140,-96.016767"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
 latlng1: "40.822061,-96.697562"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
 humandate: "May 20-21, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "8:30 am - 4:30 pm"    # human-readable times for the workshop (e.g., "8:30 am - 4:30 pm")
 startdate: 2019-05-20      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-03-21        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Carrie Brown, Adam Caprez, Jingchao Zhang"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
