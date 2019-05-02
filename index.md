@@ -161,7 +161,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 	</tr>
 	<tr>
 		<td style="padding: 5px 20px 5px 20px;">
-			 Metered parking is available along R Street and along 16th Street, and at the 17th and R parking garage. Additional information on the parking policy can be found on the <a href="http://parking.unl.edu/">Parking and Transit Services website</a>.
+			 Metered parking is available along R Street and along 16th Street, and at the 17th and R parking garage. Additional parking information can be found on the <a href="http://parking.unl.edu/">Parking and Transit Services website</a>.
 		</td>
 
 	</tr>
